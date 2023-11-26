@@ -1,7 +1,4 @@
-import carousel1 from "../images/carousel_1.jpeg";
-import side1 from "../images/side1.jpg";
-import side3 from "../images/s3.jpg";
-import side4 from "../images/side4.jpg";
+
 const Carousel = () => {
   return (
     <div
@@ -32,15 +29,8 @@ const Carousel = () => {
         ></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src={side1}  Height={350} Width={500} class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src={side3} Height={350} Width={500} class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src={side4} Height={350} Width={500} class="d-block w-100" alt="..." />
-        </div>
+        
+         
       </div>
       <button
         class="carousel-control-prev"
